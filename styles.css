@@ -31,10 +31,10 @@
     right: 3%;
     margin: 0 auto;
     transform: translateY(-50%);
-    /* Responsive properties */
-    padding: 1rem; /* Add some padding for smaller screens */
-    border-radius: 0.5rem; /* Add rounded corners for better look */
-    box-sizing: border-box; /* Ensure padding doesn't affect width calculations */
+
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
     margin-top: 3.125rem;
     background: rgb(210,5,5);
 background: -moz-linear-gradient(113deg, rgba(210,5,5,1) 0%, rgba(84,9,9,1) 80%, rgba(2,0,36,1) 173%);
@@ -43,17 +43,17 @@ background: linear-gradient(113deg, rgba(210,5,5,1) 0%, rgba(84,9,9,1) 80%, rgba
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d20505",endColorstr="#020024",GradientType=1);
   }
   
-  /* Media queries for different screen sizes */
+
   @media (max-width: 768px) {
     .clock-generic-style {
-      font-size: 1.5rem; /* Adjust font size for smaller screens */
-      width: 80%; /* Use a percentage width for better responsiveness */
+      font-size: 1.5rem; 
+      width: 80%; 
     }
   }
   
   @media (max-width: 480px) {
     .clock-generic-style {
-      font-size: 1.2rem; /* Adjust font size for even smaller screens */
+      font-size: 1.2rem; 
     }
   }
   
