@@ -1,7 +1,7 @@
 
   
   function updateCountdown() {
-    const targetDate = "2024-05-15T09:00:00"; 
+    const targetDate = "2024-04-29T09:00:00"; 
   
     // Get the time remaining
     const timeRemaining = getTimeRemaining(targetDate);
